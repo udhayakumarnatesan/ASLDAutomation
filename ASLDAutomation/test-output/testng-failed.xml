@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="ASLDRegression(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.mst.automation.asld.regression.AsldApplication">
+        <methods>
+          <include name="formExecutionPage"/>
+          <include name="startReport"/>
+          <include name="checkTestAfterExecution"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mst.automation.asld.regression.AsldApplication -->
+    </classes>
+  </test> <!-- ASLDRegression(failed) -->
+</suite> <!-- Failed suite [Suite] -->
