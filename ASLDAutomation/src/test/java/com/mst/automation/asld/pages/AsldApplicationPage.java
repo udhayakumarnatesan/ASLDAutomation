@@ -18,6 +18,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.mst.automation.asld.excelutility.DataUtils;
 import com.mst.automation.asld.extentreport.Report;
 
@@ -154,7 +157,8 @@ public class AsldApplicationPage {
 		page.contactnamefield.sendKeys(DataUtils.readExcel(sheetName, tcID, "Contact Name"));
 		page.contactnamefieldvalue.click();
 		page.savebutton.click();
-		Thread.sleep(8000);
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(".//span[text()='ASLD Application Owner']//following::div/div[1]/div[1]/button")));
 		page.changeownericon.click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		page.searchname.click();
@@ -196,7 +200,7 @@ public class AsldApplicationPage {
 		page.selectmyviews.click();
 		Thread.sleep(4000);
 		page.openasldapplicationrecord.click();
-		Thread.sleep(8000);
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		page.accessrelatedlist.click();
 		Thread.sleep(4000);
 		JavascriptExecutor jse2 = (JavascriptExecutor) driver;

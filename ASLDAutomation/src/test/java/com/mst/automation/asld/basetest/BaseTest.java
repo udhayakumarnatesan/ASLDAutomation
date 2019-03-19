@@ -2,7 +2,6 @@ package com.mst.automation.asld.basetest;
 
 import java.io.IOException;
 
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
