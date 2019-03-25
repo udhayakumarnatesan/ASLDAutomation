@@ -200,7 +200,7 @@ public class AsldApplicationPage {
 		page.selectmyviews.click();
 		Thread.sleep(4000);
 		page.openasldapplicationrecord.click();
-		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		page.accessrelatedlist.click();
 		Thread.sleep(4000);
 		JavascriptExecutor jse2 = (JavascriptExecutor) driver;

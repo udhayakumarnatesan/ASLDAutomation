@@ -5,6 +5,7 @@ import com.mst.automation.asld.basetest.BaseTest;
 import com.mst.automation.asld.extentreport.Report;
 import com.mst.automation.asld.pages.AsldApplicationPage;
 import com.mst.automation.asld.pages.LoginPage;
+import com.mst.automation.asld.pages.PaymentInformation;
 
 public class AsldApplication extends BaseTest{
 	
@@ -16,8 +17,9 @@ public class AsldApplication extends BaseTest{
 	public void formExecutionPage() throws Exception {
 		Report.beginTest("ASLD Application", "Verify the Commissioner Approval field", "Udhaya", "ASLDTestCase");
 		tcID = "TC_001";
-		sheetName = "Testsheet";
+		sheetName = "Testsheet1";
 	    LoginPage.performLogin(driver, sheetName, tcID);
-	    AsldApplicationPage.asldApplicationObject(driver, sheetName, tcID);
+	    //AsldApplicationPage.asldApplicationObject(driver, sheetName, tcID);
+	    PaymentInformation.paymentInformationObject(driver, sheetName, tcID);
 }
 }

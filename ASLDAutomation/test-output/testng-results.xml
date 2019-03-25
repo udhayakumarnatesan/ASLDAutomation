@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="186417" started-at="2019-03-18T05:34:57Z" finished-at="2019-03-18T05:38:03Z">
+  <suite name="Suite" duration-ms="50647" started-at="2019-03-25T07:38:27Z" finished-at="2019-03-25T07:39:17Z">
     <groups>
     </groups>
-    <test name="ASLDRegression" duration-ms="186417" started-at="2019-03-18T05:34:57Z" finished-at="2019-03-18T05:38:03Z">
+    <test name="ASLDRegression" duration-ms="50647" started-at="2019-03-25T07:38:27Z" finished-at="2019-03-25T07:39:17Z">
       <class name="com.mst.automation.asld.regression.AsldApplication">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="startReport" is-config="true" duration-ms="272" started-at="2019-03-18T11:04:56Z" finished-at="2019-03-18T11:04:57Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="startReport" is-config="true" duration-ms="256" started-at="2019-03-25T13:08:27Z" finished-at="2019-03-25T13:08:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="login" is-config="true" duration-ms="4736" started-at="2019-03-18T11:04:57Z" finished-at="2019-03-18T11:05:01Z">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="login" is-config="true" duration-ms="4632" started-at="2019-03-25T13:08:27Z" finished-at="2019-03-25T13:08:31Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="formExecutionPage()[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="formExecutionPage" duration-ms="179066" started-at="2019-03-18T11:05:01Z" finished-at="2019-03-18T11:08:00Z">
+        <test-method status="PASS" signature="formExecutionPage()[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="formExecutionPage" duration-ms="45470" started-at="2019-03-25T13:08:31Z" finished-at="2019-03-25T13:09:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formExecutionPage -->
-        <test-method status="PASS" signature="checkTestAfterExecution(org.testng.ITestResult)[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="checkTestAfterExecution" is-config="true" duration-ms="8" started-at="2019-03-18T11:08:00Z" finished-at="2019-03-18T11:08:00Z">
+        <test-method status="PASS" signature="checkTestAfterExecution(org.testng.ITestResult)[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="checkTestAfterExecution" is-config="true" duration-ms="6" started-at="2019-03-25T13:09:17Z" finished-at="2019-03-25T13:09:17Z">
           <params>
             <param index="0">
               <value>
@@ -37,11 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTestAfterExecution -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="logout" is-config="true" duration-ms="2591" started-at="2019-03-18T11:08:00Z" finished-at="2019-03-18T11:08:03Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="logout" is-config="true" duration-ms="524" started-at="2019-03-25T13:09:17Z" finished-at="2019-03-25T13:09:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="tearDown" is-config="true" duration-ms="400" started-at="2019-03-18T11:08:03Z" finished-at="2019-03-18T11:08:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mst.automation.asld.regression.AsldApplication@5e3a8624]" name="tearDown" is-config="true" duration-ms="567" started-at="2019-03-25T13:09:18Z" finished-at="2019-03-25T13:09:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
